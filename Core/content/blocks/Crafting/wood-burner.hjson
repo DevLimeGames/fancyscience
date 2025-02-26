@@ -1,0 +1,26 @@
+type: "GenericCrafter"
+name: "Wood burner"
+health: 180
+size: 2
+category: "crafting"
+requirements: [
+  { item: "iron", amount: 75 },
+  { item: "tin", amount: 45 }
+]
+
+hasItems: true
+itemCapacity: 10
+acceptsItems: true
+breakable: true
+destructible: true
+
+outputItem: charcoal/1
+craftTime: 30
+
+consumes: {
+  items: {
+    items: [
+      { item: "wood", amount: 2 }
+    ]
+  }
+}

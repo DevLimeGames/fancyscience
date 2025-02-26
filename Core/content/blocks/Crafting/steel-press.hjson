@@ -1,0 +1,27 @@
+type: "GenericCrafter"
+name: "Steel Press"
+health: 180
+size: 2
+category: "crafting"
+requirements: [
+  { item: "iron", amount: 50 },
+  { item: "tin", amount: 30 }
+]
+
+hasItems: true
+itemCapacity: 10
+acceptsItems: true
+breakable: true
+destructible: true
+
+outputItem: steel/1
+craftTime: 45
+
+consumes: {
+  items: {
+    items: [
+      { item: "iron", amount: 2 },
+      { item: "charcoal", amount: 1 }
+    ]
+  }
+}

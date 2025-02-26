@@ -1,0 +1,34 @@
+type: "GenericCrafter"
+name: "Water Heater"
+health: 180
+size: 2
+category: "crafting"
+requirements: [
+  { item: "iron", amount: 80 },
+  { item: "tin", amount: 40 }
+]
+mapColor: FFD389
+
+hasItems: true
+hasLiquids: true
+acceptLiquids: true
+itemCapacity: 10
+acceptsItems: true
+breakable: true
+destructible: true
+
+outputLiquid: steam/1
+craftTime: 60
+
+consumes: {
+  items: {
+    items: [
+      { item: "charcoal", amount: 2 }
+     ]
+  },
+  liquids: {
+    liquids: [
+      { liquid: water, amount: 0.2 }
+    ]
+  }
+}
