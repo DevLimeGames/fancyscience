@@ -1,0 +1,26 @@
+type: "GenericCrafter"
+name: "Ceramic Compressor"
+health: 280
+size: 2
+category: "crafting"
+requirements: [
+  { item: "iron", amount: 80 },
+  { item: "tin", amount: 50 }
+]
+
+hasItems: true
+itemCapacity: 20
+acceptsItems: true
+breakable: true
+destructible: true
+
+outputItem: ceramic/1
+craftTime: 90
+
+consumes: {
+  items: {
+    items: [
+      { item: "clay", amount: 4 }
+    ]
+  }
+}
