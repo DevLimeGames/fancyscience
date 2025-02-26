@@ -1,0 +1,36 @@
+type: "ItemTurret"
+name: "Arch"
+health: 960
+size: 2
+requirements: [
+  { item: "iron", amount: 100 },
+  { item: "tin", amount: 80 }
+]
+breakable: true
+destructible: true
+
+range: 180
+inaccuracy: 1
+targetAir:	true
+targetGround: true
+maxAmmo: 20
+category: turret
+
+ammoTypes: {
+  iron: {
+    damage: 45
+    lifetime: 60
+    drag: 0.01
+    speed: 4
+    hittable: false
+    absorbable: false
+    sprite: iron
+    frontColor: e58956
+    backColor: ffd2ae
+    width: 16
+    height: 16
+    shrinkY: 0
+    spin: 1.5
+    ammoMultiplier: 1
+  }
+}
