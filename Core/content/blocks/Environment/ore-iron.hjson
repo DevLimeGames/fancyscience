@@ -1,0 +1,6 @@
+type: "OreBlock"
+name: "iron-ore"
+localizedName: "Iron Ore"
+itemDrop: "iron"
+oreDefault: true
+mapColor: BBBBBB
