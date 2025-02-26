@@ -1,0 +1,8 @@
+type: "Wall"
+name: "Iron Wall"
+health: 580
+size: 1
+category: "defense"
+requirements: [
+  { item: "iron", amount: 6 }
+]
