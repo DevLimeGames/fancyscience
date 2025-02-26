@@ -1,0 +1,17 @@
+type: "ItemBridge"
+name: "Iron Bridge"
+size: 1
+health: 80
+category: "distribution"
+requirements: [
+  { item: "iron", amount: 6 },
+  { item: "tin", amount: 3 }
+]
+
+research: {
+  parent: iron-router
+  requirements: [
+    iron/10,
+    tin/6
+  ]
+}

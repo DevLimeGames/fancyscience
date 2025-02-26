@@ -1,0 +1,18 @@
+type: "Junction"
+name: "Iron Junction"
+size: 1
+health: 80
+category: "distribution"
+requirements: [
+  { item: "iron", amount: 2 }
+]
+
+research: {
+  parent: iron-router
+  requirements: [
+    iron/4
+  ]
+}
+
+capacity: 1
+speed: 85
