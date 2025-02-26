@@ -1,0 +1,6 @@
+type: "OreBlock"
+name: "tree"
+localizedName: "Tree"
+itemDrop: "wood"
+oreDefault: true
+mapColor: 8B4513
