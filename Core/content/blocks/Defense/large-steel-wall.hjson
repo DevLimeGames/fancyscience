@@ -1,0 +1,8 @@
+type: "Wall"
+name: "Large Steel Wall"
+health: 2980
+size: 2
+category: "defense"
+requirements: [
+  { item: "steel", amount: 24 }
+]
