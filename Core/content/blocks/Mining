@@ -1,9 +1,0 @@
-type: "Drill"
-name: "Drill"
-health: 180
-size: 2
-category: "production"
-requirements: [
-  { item: "iron", amount: 12 },
-]
-tier: 1
