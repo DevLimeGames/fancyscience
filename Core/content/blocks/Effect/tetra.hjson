@@ -1,0 +1,15 @@
+type: "CoreBlock"
+name: "Tetra"
+unitType: alpha
+requiresCoreZone: true
+isFirstTier: true
+
+itemCapacity: 2000
+hasItems: true
+acceptsItems: true
+size: 3
+
+research: {
+  root: true
+  planet: astra
+}
