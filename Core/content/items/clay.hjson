@@ -1,0 +1,10 @@
+type: "Item"
+name: "Clay"
+description: "Use to reinforce other materials"
+color: 5A7D9A
+
+hardness: 0
+charge: 0
+radioactivity: 0
+flammability: 0
+explosiveness: 0

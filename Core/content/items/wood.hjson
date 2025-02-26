@@ -1,0 +1,10 @@
+type: "Item"
+name: "Wood"
+description: "Use to make charcoal."
+color: 8B4513
+
+hardness: 1
+charge: 0
+radioactivity: 0
+flammability: 0
+explosiveness: 0
