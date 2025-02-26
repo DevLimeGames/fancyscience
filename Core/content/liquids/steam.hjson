@@ -4,4 +4,4 @@ gas: true
 description: "Use for energy production."
 color: DDDDDD
 
-temperature: 0.8
+temperature: 0.7
