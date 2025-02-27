@@ -16,6 +16,14 @@ targetGround: true
 maxAmmo: 20
 category: turret
 
+research: {
+  parent: tetra
+  requirements: [
+    iron/10
+    tin/8
+  ]
+}
+
 ammoTypes: {
   iron: {
     damage: 45
