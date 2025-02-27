@@ -1,3 +1,9 @@
 sector: 15
 planet: astra
 difficulty: 1
+
+research: {
+  parent: tetra
+  objectives: [
+  ]
+}
