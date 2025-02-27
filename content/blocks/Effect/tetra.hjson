@@ -3,6 +3,12 @@ name: "Tetra"
 unitType: alpha
 requiresCoreZone: true
 isFirstTier: true
+category: "effect"
+requirements: {
+  iron/2500
+  tin/2000
+  steel/1000
+}
 
 itemCapacity: 2000
 hasItems: true
