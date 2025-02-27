@@ -32,6 +32,7 @@ alwaysUnlocked: true
 defaultEnv: 129
 
 unlockedOnLand: [
+  tetra
 ]
 
 icon: terrain
