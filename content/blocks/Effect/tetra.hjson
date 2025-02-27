@@ -1,5 +1,6 @@
 type: "CoreBlock"
 name: "Tetra"
+health: 1028
 unitType: alpha
 requiresCoreZone: true
 isFirstTier: true
