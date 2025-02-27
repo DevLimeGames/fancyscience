@@ -10,6 +10,7 @@ requirements: [
   tin/2000,
   steel/1000
 ]
+alwaysUnlocked: true
 
 itemCapacity: 2000
 hasItems: true
