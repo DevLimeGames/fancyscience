@@ -5,8 +5,8 @@ requiresCoreZone: true
 isFirstTier: true
 category: "effect"
 requirements: {
-  iron/2500
-  tin/2000
+  iron/2500,
+  tin/2000,
   steel/1000
 }
 
