@@ -6,4 +6,11 @@ category: "production"
 requirements: [
   { item: "iron", amount: 12 },
 ]
-tier: 1
+tier: 2
+
+research: {
+  parent: tetra
+  requirements: [
+    iron/8
+  ]
+}
