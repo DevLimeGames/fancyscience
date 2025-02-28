@@ -45,7 +45,7 @@ prebuildBase: true
 allowWaves: true
 allowLaunchToNumbered: false
 enemyBuildSpeedMultiplier: 1
-defaultCore: tetra
+defaultCore: aa-tetra
 
 mesh: [
   {
