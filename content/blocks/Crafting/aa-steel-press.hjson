@@ -4,8 +4,8 @@ health: 180
 size: 2
 category: "crafting"
 requirements: [
-  { item: "iron", amount: 50 },
-  { item: "tin", amount: 30 }
+  { item: "aa-iron", amount: 50 },
+  { item: "ab-tin", amount: 30 }
 ]
 
 hasItems: true
@@ -14,14 +14,14 @@ acceptsItems: true
 breakable: true
 destructible: true
 
-outputItem: steel/1
+outputItem: ae-steel/1
 craftTime: 45
 
 consumes: {
   items: {
     items: [
-      { item: "iron", amount: 2 },
-      { item: "charcoal", amount: 1 }
+      { item: "aa-iron", amount: 2 },
+      { item: "ad-charcoal", amount: 1 }
     ]
   }
 }
