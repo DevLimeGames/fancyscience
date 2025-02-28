@@ -4,8 +4,8 @@ health: 120
 size: 1
 category: "power"
 requirements: [
-  { item: "iron", amount: 40 },
-  { item: "tin", amount: 25 }
+  { item: "aa-iron", amount: 40 },
+  { item: "ab-tin", amount: 25 }
 ]
 
 hasItems: true
@@ -19,6 +19,6 @@ powerProduction: 3
 
 consumes: {
   items: [
-    charcoal/1
+    ad-charcoal/1
   ]
 }
