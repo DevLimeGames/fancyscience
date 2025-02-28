@@ -1,27 +1,18 @@
-type: "GenericCrafter"
-name: "Ceramic Compressor"
-health: 280
-size: 2
+type: "ConsumeGenerator"
+name: "Ignition Generator"
+health: 120
+size: 1
 category: "crafting"
 requirements: [
-  { item: "iron", amount: 80 },
-  { item: "tin", amount: 50 }
+  { item: "iron", 40 },
+  { item: "tin", amount: 25 }
 ]
 
 hasItems: true
-itemCapacity: 20
+itemCapacity: 10
 acceptsItems: true
 breakable: true
 destructible: true
 
-outputItem: ceramic/1
-craftTime: 90
-
-consumes: {
-  power: 60
-  items: {
-    items: [
-      { item: "clay", amount: 4 }
-    ]
-  }
-}
+itemDuration: 90
+powerProduction: 240
