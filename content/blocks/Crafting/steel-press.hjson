@@ -18,6 +18,7 @@ outputItem: steel/1
 craftTime: 45
 
 consumes: {
+  power: 12
   items: {
     items: [
       { item: "iron", amount: 2 },
