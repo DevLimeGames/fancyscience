@@ -37,12 +37,12 @@ unlockedOnLand: [
 icon: terrain
 
 allowLaunchSchematics: false
-allowLaunchLoadout: true
-allowWaveSimulation: false
+allowLaunchLoadout: false
+allowWaveSimulation: true
 allowSectorInvasion: false
 clearSectorOnLose: true
 prebuildBase: true
-allowWaves: false
+allowWaves: true
 allowLaunchToNumbered: false
 enemyBuildSpeedMultiplier: 1
 defaultCore: tetra
