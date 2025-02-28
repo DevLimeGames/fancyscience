@@ -1,6 +1,12 @@
 sector: 15
 planet: astra
 difficulty: 1
+captureWave: 10
+showSectorLandInfo: true
+
+localizedName: "River Cave"
+name: "river-cave"
+description: "Your first sector on a new planet."
 
 research: {
   parent: tetra
