@@ -8,7 +8,7 @@ requirements: [
   { item: "aa-iron", amount: 12 },
 ]
 
-hardnessDrillMultiplier: 12
+hardnessDrillMultiplier: 8
 tier: 1
 
 research: {
