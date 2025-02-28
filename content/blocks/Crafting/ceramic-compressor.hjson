@@ -18,6 +18,7 @@ outputItem: ceramic/1
 craftTime: 90
 
 consumes: {
+  power: 60
   items: {
     items: [
       { item: "clay", amount: 4 }
