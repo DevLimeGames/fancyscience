@@ -9,7 +9,7 @@ name: "river-cave"
 description: "Your first sector on a new planet."
 
 research: {
-  parent: tetra
+  parent: aa-tetra
   objectives: [
   ]
 }
