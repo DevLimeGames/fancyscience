@@ -11,7 +11,7 @@ speed: 0.03
 displayedSpeed: 6
 
 research: {
-  parent: tetra
+  parent: aa-tetra
   requirements: [
     aa-iron/3
   ]
