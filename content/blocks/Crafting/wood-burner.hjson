@@ -18,7 +18,7 @@ outputItem: charcoal/1
 craftTime: 30
 
 consumes: {
-  power: 24
+  power: 30
 
   items: {
     items: [
