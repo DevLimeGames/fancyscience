@@ -3,10 +3,13 @@ name: "Drill"
 health: 180
 size: 2
 category: "production"
+
 requirements: [
   { item: "aa-iron", amount: 12 },
 ]
-tier: 2
+
+hardnessDrillMultiplier: 12
+tier: 1
 
 research: {
   parent: aa-tetra
