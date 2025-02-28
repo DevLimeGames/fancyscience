@@ -1,0 +1,18 @@
+type: "PowerNode"
+name: "Iron Node"
+health: 120
+size: 1
+category: "power"
+requirements: [
+  { item: "aa-iron", amount: 16 },
+  { item: "ab-tin", amount: 8 }
+]
+
+breakable: true
+destructible: true
+
+maxNodes: 5
+autolink: true
+laserScale: 0.15
+laserColor: ffffff
+laserColor2: 000000
