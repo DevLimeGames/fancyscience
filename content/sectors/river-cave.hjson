@@ -7,3 +7,5 @@ research: {
   objectives: [
   ]
 }
+
+alwaysUnlocked: true
