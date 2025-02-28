@@ -26,7 +26,7 @@ research: {
 
 ammoTypes: {
   aa-iron: {
-    damage: 45
+    damage: 96
     lifetime: 60
     drag: 0.01
     speed: 4
