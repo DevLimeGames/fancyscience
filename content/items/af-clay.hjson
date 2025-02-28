@@ -1,6 +1,5 @@
-type: "Item"
 name: "Clay"
-description: "Use to reinforce other materials"
+description: "Use to add to other materials"
 color: 5A7D9A
 
 hardness: 1
