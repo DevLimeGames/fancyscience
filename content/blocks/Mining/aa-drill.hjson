@@ -9,7 +9,7 @@ requirements: [
 tier: 2
 
 research: {
-  parent: tetra
+  parent: aa-tetra
   requirements: [
     aa-iron/8
   ]
