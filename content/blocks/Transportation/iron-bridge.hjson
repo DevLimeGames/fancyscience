@@ -4,14 +4,14 @@ size: 1
 health: 80
 category: "distribution"
 requirements: [
-  { item: "iron", amount: 6 },
-  { item: "tin", amount: 3 }
+  { item: "aa-iron", amount: 6 },
+  { item: "ab-tin", amount: 3 }
 ]
 
 research: {
   parent: iron-router
   requirements: [
-    iron/10,
-    tin/6
+    aa-iron/10,
+    ab-tin/6
   ]
 }
