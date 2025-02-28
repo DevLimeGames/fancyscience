@@ -9,7 +9,9 @@ requirements: [
 ]
 
 hardnessDrillMultiplier: 8
+drillTime: 600
 tier: 1
+drawMineItem: false
 
 research: {
   parent: aa-tetra
