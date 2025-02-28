@@ -21,6 +21,7 @@ outputLiquid: steam/1
 craftTime: 60
 
 consumes: {
+  power: 80
   items: {
     items: [
       { item: "charcoal", amount: 2 }
