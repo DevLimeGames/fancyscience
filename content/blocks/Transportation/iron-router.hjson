@@ -4,13 +4,13 @@ size: 1
 health: 80
 category: "distribution"
 requirements: [
-  { item: "iron", amount: 3 }
+  { item: "aa-iron", amount: 3 }
 ]
 
 research: {
   parent: iron-belt
   requirements: [
-    iron/6
+    aa-iron/6
   ]
 }
 
