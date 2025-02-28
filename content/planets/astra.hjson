@@ -37,7 +37,7 @@ unlockedOnLand: [
 icon: terrain
 
 allowLaunchSchematics: false
-allowLaunchLoadout: false
+allowLaunchLoadout: true
 allowWaveSimulation: false
 allowSectorInvasion: false
 clearSectorOnLose: true
