@@ -4,7 +4,7 @@ size: 1
 health: 80
 category: "distribution"
 requirements: [
-  { item: "iron", amount: 1 }
+  { item: "aa-iron", amount: 1 }
 ]
 
 speed: 0.03
@@ -13,7 +13,7 @@ displayedSpeed: 6
 research: {
   parent: tetra
   requirements: [
-    iron/3
+    aa-iron/3
   ]
 }
 
