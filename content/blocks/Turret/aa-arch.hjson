@@ -3,8 +3,8 @@ name: "Arch"
 health: 960
 size: 2
 requirements: [
-  { item: "iron", amount: 100 },
-  { item: "tin", amount: 80 }
+  { item: "aa-iron", amount: 100 },
+  { item: "ab-tin", amount: 80 }
 ]
 breakable: true
 destructible: true
@@ -19,13 +19,13 @@ category: turret
 research: {
   parent: tetra
   requirements: [
-    iron/10
-    tin/8
+    aa-iron/10
+    ab-tin/8
   ]
 }
 
 ammoTypes: {
-  iron: {
+  aa-iron: {
     damage: 45
     lifetime: 60
     drag: 0.01
