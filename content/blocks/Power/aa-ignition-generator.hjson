@@ -16,3 +16,9 @@ destructible: true
 
 itemDuration: 90
 powerProduction: 240
+
+consumes: {
+  items: [
+    charcoal/1
+  ]
+}
