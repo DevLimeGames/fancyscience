@@ -2,7 +2,7 @@ type: "ConsumeGenerator"
 name: "Ignition Generator"
 health: 120
 size: 1
-category: "crafting"
+category: "power"
 requirements: [
   { item: "iron", 40 },
   { item: "tin", amount: 25 }
