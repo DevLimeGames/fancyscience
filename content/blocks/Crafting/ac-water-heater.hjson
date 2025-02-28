@@ -4,8 +4,8 @@ health: 180
 size: 2
 category: "crafting"
 requirements: [
-  { item: "iron", amount: 80 },
-  { item: "tin", amount: 40 }
+  { item: "aa-iron", amount: 80 },
+  { item: "ab-tin", amount: 40 }
 ]
 mapColor: FFD389
 
@@ -17,14 +17,14 @@ acceptsItems: true
 breakable: true
 destructible: true
 
-outputLiquid: steam/1
+outputLiquid: aa-steam/1
 craftTime: 60
 
 consumes: {
   power: 80
   items: {
     items: [
-      { item: "charcoal", amount: 2 }
+      { item: "ad-charcoal", amount: 2 }
      ]
   },
   liquids: {
