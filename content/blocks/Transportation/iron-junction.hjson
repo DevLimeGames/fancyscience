@@ -4,13 +4,13 @@ size: 1
 health: 80
 category: "distribution"
 requirements: [
-  { item: "iron", amount: 2 }
+  { item: "aa-iron", amount: 2 }
 ]
 
 research: {
   parent: iron-router
   requirements: [
-    iron/4
+    aa-iron/4
   ]
 }
 
