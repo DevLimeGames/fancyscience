@@ -4,8 +4,8 @@ health: 280
 size: 2
 category: "crafting"
 requirements: [
-  { item: "iron", amount: 80 },
-  { item: "tin", amount: 50 }
+  { item: "aa-iron", amount: 80 },
+  { item: "ab-tin", amount: 50 }
 ]
 
 hasItems: true
@@ -14,14 +14,14 @@ acceptsItems: true
 breakable: true
 destructible: true
 
-outputItem: ceramic/1
+outputItem: ag-ceramic/1
 craftTime: 90
 
 consumes: {
   power: 60
   items: {
     items: [
-      { item: "clay", amount: 4 }
+      { item: "af-clay", amount: 4 }
     ]
   }
 }
