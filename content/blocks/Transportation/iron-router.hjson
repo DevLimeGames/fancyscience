@@ -8,7 +8,7 @@ requirements: [
 ]
 
 research: {
-  parent: iron-belt
+  parent: aa-iron-belt
   requirements: [
     aa-iron/6
   ]
