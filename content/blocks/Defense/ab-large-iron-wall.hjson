@@ -4,5 +4,5 @@ health: 2080
 size: 2
 category: "defense"
 requirements: [
-  { item: "iron", amount: 24 }
+  { item: "aa-iron", amount: 24 }
 ]
