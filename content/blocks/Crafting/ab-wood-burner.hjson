@@ -8,6 +8,14 @@ requirements: [
   { item: "ab-tin", amount: 45 }
 ]
 
+research: {
+  parent: aa-drill
+  requirements: [
+    aa-iron/150
+    ab-tin/90
+  ]
+}
+
 hasItems: true
 itemCapacity: 10
 acceptsItems: true
