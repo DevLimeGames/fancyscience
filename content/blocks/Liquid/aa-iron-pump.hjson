@@ -9,7 +9,7 @@ requirements: [
   { item: "ab-tin", amount: 15}
 ]
 
-pumpAmount: 0.2
+pumpAmount: 0.1
 
 research: {
   parent: aa-drill
