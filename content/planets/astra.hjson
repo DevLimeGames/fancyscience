@@ -15,7 +15,6 @@ generator: {
 }
 
 localizedName: "Astra"
-sectorSize: 2
 sectorSeed: 35
 startSector: 15
 parent: sun
