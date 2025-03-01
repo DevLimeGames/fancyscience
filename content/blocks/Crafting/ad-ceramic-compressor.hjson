@@ -18,7 +18,7 @@ outputItem: ag-ceramic/1
 craftTime: 90
 
 consumes: {
-  power: 60
+  power: 1
   items: {
     items: [
       { item: "af-clay", amount: 4 }
