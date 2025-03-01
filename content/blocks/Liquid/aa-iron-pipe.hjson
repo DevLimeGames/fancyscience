@@ -1,0 +1,16 @@
+type: "Drill"
+name: "Iron Pipe"
+health: 180
+size: 2
+category: "liquid"
+
+requirements: [
+  { item: "aa-iron", amount: 1 },
+]
+
+research: {
+  parent: ac-iron-pump
+  requirements: [
+    aa-iron/8
+  ]
+}
