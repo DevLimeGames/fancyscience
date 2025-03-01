@@ -8,7 +8,7 @@ requirements: [
 ]
 
 research: {
-  parent: aa-large-iron-wall
+  parent: ab-large-iron-wall
   requirements: [
     ae-steel/12
   ]
