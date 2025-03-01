@@ -1,0 +1,17 @@
+type: "PowerNode"
+name: "Large Iron Node"
+health: 120
+size: 1
+category: "power"
+requirements: [
+  { item: "ae-steel", amount: 12 },
+  { item: "aa-iron", amount: 8 },
+  { item: "ab-tin", amount: 4 }
+]
+
+breakable: true
+destructible: true
+laserRange: 15
+maxNodes: 15
+autolink: true
+laserScale: 0.2
