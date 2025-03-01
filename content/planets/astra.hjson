@@ -15,13 +15,14 @@ generator: {
 }
 
 localizedName: "Astra"
+sectorSize: 2
 sectorSeed: 35
 startSector: 15
 parent: sun
 solarSystem: sun
 iconColor: 63ad7a
 atmosphereRadIn: 0
-atmosphereRadOut: 0.1
+atmosphereRadOut: 0.05
 atmosphereColor: 3898a1
 orbitRadius: 39
 orbitOffset: 125
