@@ -14,5 +14,5 @@ destructible: true
 maxNodes: 5
 autolink: true
 laserScale: 0.15
-laserColor: ffffff
-laserColor2: 000000
+laserColor: aaffaa
+laserColor2: 003300
