@@ -7,7 +7,14 @@ requirements: [
   { item: "aa-iron", amount: 80 },
   { item: "ab-tin", amount: 40 }
 ]
-mapColor: FFD389
+
+research: {
+  parent: aa-steel-press
+  requirements: [
+    aa-iron/160
+    ab-tin/80
+  ]
+}
 
 hasItems: true
 hasLiquids: true
@@ -17,7 +24,7 @@ acceptsItems: true
 breakable: true
 destructible: true
 
-outputLiquid: aa-steam/1
+outputLiquid: aa-steam/0.2
 craftTime: 60
 
 consumes: {
