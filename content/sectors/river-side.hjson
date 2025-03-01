@@ -3,6 +3,7 @@ planet: astra
 difficulty: 1
 captureWave: 10
 showSectorLandInfo: true
+addStartingItems: false
 
 localizedName: "River Side"
 name: "river-side"
