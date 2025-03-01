@@ -10,7 +10,7 @@ requirements: [
 ]
 
 research: {
-  parent: aa-tetra
+  parent: aa-iron-node
   requirements: [
     ae-steel/24
     aa-iron/16
