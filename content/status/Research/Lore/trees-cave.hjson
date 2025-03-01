@@ -1,3 +1,5 @@
+name: "trees-cave"
+localiz
 research: {
   parent: aa-tetra
   objectives: [
