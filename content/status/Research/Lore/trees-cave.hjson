@@ -5,7 +5,8 @@ description: "Why are there trees in this cave, are they cultivating this? What 
 research: {
   parent: lore
   objectives: [
-    river-side
+      type: SectorComplete
+      preset: river-side
   ]
 }
 
