@@ -22,7 +22,7 @@ parent: sun
 solarSystem: sun
 iconColor: 63ad7a
 atmosphereRadIn: 0
-atmosphereRadOut: 0.15
+atmosphereRadOut: 0.1
 atmosphereColor: 3898a1
 orbitRadius: 39
 orbitOffset: 125
