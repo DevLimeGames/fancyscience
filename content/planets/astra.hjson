@@ -22,12 +22,12 @@ parent: sun
 solarSystem: sun
 iconColor: 63ad7a
 atmosphereRadIn: 0
-atmosphereRadOut: 0.1
+atmosphereRadOut: 0.15
 atmosphereColor: 3898a1
 orbitRadius: 39
-orbitOffset: 140
-orbitTime: 12000
-rotateTime: 5000 
+orbitOffset: 125
+orbitTime: 9000
+rotateTime: 3750
 accessible: true
 alwaysUnlocked: true
 defaultEnv: 129
