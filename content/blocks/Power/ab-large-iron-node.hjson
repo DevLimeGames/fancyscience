@@ -9,6 +9,15 @@ requirements: [
   { item: "ab-tin", amount: 4 }
 ]
 
+research: {
+  parent: aa-tetra
+  requirements: [
+    ae-steel/24
+    aa-iron/16
+    ab-tin/8
+  ]
+}
+
 breakable: true
 destructible: true
 
