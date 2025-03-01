@@ -15,7 +15,7 @@ breakable: true
 destructible: true
 
 itemDuration: 90
-powerProduction: 3
+powerProduction: 1.5
 
 consumes: {
   items: [
