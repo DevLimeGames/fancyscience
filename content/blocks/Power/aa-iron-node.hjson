@@ -8,6 +8,14 @@ requirements: [
   { item: "ab-tin", amount: 8 }
 ]
 
+research: {
+  parent: aa-drill
+  requirements: [
+    aa-iron/32
+    ab-tin/16
+  ]
+}
+
 breakable: true
 destructible: true
 
