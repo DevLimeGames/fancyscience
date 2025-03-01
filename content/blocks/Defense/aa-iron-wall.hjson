@@ -6,3 +6,10 @@ category: "defense"
 requirements: [
   { item: "aa-iron", amount: 6 }
 ]
+
+research: {
+  parent: aa-arch
+  requirements: [
+    aa-iron/12
+  ]
+}
