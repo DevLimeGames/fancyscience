@@ -1,9 +1,12 @@
+localizedName: "Trees in Cave"
 name: "trees-cave"
-localiz
+description: "Why are there trees in this cave, are they cultivating this? What for?"
+
 research: {
-  parent: aa-tetra
+  parent: lore
   objectives: [
     river-side
   ]
 }
+
 show: true
