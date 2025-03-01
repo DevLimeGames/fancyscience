@@ -6,9 +6,9 @@ requiresCoreZone: true
 isFirstTier: true
 category: "effect"
 requirements: [
-  aa-iron/1200,
-  ab-tin/1000,
-  ae-steel/800
+  aa-iron/1000,
+  ab-tin/800,
+  ae-steel/500
 ]
 alwaysUnlocked: true
 
