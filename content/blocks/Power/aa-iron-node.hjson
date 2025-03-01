@@ -11,6 +11,7 @@ requirements: [
 breakable: true
 destructible: true
 
+laserRange: 6
 maxNodes: 5
 autolink: true
 laserScale: 0.2
