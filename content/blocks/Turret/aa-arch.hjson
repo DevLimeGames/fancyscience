@@ -9,7 +9,7 @@ requirements: [
 breakable: true
 destructible: true
 
-range: 8
+range: 152
 inaccuracy: 1
 targetAir:	true
 targetGround: true
