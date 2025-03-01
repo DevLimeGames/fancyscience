@@ -1,9 +1,0 @@
-accessible: false
-localizedName: "Centra"
-mesh: {
-  type: HexSkyMesh
-  color: 000000
-  thresh: 0.01
-}
-parent: centra
-root: true
