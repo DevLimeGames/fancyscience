@@ -19,8 +19,8 @@ category: turret
 research: {
   parent: aa-tetra
   requirements: [
-    aa-iron/10
-    ab-tin/8
+    aa-iron/50
+    ab-tin/40
   ]
 }
 
