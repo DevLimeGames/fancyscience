@@ -6,3 +6,10 @@ category: "defense"
 requirements: [
   { item: "ae-steel", amount: 6 }
 ]
+
+research: {
+  parent: aa-large-iron-wall
+  requirements: [
+    ae-steel/12
+  ]
+}
