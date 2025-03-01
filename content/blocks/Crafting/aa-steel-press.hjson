@@ -18,6 +18,7 @@ outputItem: ae-steel/1
 craftTime: 45
 
 consumes: {
+  power: 0.6
   items: {
     items: [
       { item: "aa-iron", amount: 2 },
