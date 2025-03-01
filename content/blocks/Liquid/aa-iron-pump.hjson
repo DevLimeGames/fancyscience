@@ -1,7 +1,7 @@
 type: "Pump"
-name: "Drill"
+name: "Iron Pump"
 health: 180
-size: 2
+size: 1
 category: "liquid"
 
 requirements: [
