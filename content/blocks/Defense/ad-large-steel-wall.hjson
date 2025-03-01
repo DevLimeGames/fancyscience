@@ -10,6 +10,6 @@ requirements: [
 research: {
   parent: ac-steel-wall
   requirements: [
-    aa-steel/ 48
+    ae-steel/ 48
   ]
 }
