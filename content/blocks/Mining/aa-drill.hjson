@@ -8,8 +8,8 @@ requirements: [
   { item: "aa-iron", amount: 12 },
 ]
 
-hardnessDrillMultiplier: 8
-drillTime: 600
+hardnessDrillMultiplier: 4
+drillTime: 900
 tier: 1
 drawMineItem: false
 
