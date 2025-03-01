@@ -18,7 +18,6 @@ research: {
 
 hasItems: true
 hasLiquids: true
-acceptLiquids: true
 itemCapacity: 10
 acceptsItems: true
 breakable: true
