@@ -11,7 +11,7 @@ destructible: true
 
 range: 152
 inaccuracy: 1
-targetAir:	true
+targetAir: true
 targetGround: true
 maxAmmo: 20
 category: turret
