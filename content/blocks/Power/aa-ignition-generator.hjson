@@ -8,6 +8,14 @@ requirements: [
   { item: "ab-tin", amount: 25 }
 ]
 
+research: {
+  parent: aa-iron-node
+  requirements: [
+    aa-iron/80
+    ab-tin/50
+  ]
+}
+
 hasItems: true
 itemCapacity: 10
 acceptsItems: true
