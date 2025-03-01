@@ -1,7 +1,7 @@
 type: "PowerNode"
 name: "Large Iron Node"
 health: 120
-size: 1
+size: 2
 category: "power"
 requirements: [
   { item: "ae-steel", amount: 12 },
