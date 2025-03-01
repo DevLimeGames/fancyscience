@@ -27,7 +27,7 @@ research: {
 ammoTypes: {
   aa-iron: {
     damage: 68
-    lifetime: 60
+    lifetime: 47.5
     drag: 0.01
     speed: 4
     hittable: false
@@ -44,7 +44,7 @@ ammoTypes: {
 
   ae-steel: {
     damage: 124
-    lifetime: 60
+    lifetime: 47.5
     drag: 0.01
     speed: 2
     hittable: false
