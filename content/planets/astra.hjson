@@ -35,7 +35,7 @@ defaultEnv: 129
 unlockedOnLand: [
 ]
 
-icon: terrain
+icon: planet
 
 allowLaunchSchematics: false
 allowLaunchLoadout: false
