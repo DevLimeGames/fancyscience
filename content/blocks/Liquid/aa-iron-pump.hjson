@@ -1,1 +1,20 @@
-a
+type: "Pump"
+name: "Drill"
+health: 180
+size: 2
+category: "liquid"
+
+requirements: [
+  { item: "aa-iron", amount: 40 }
+  { item: "ab-tin", amount: 15}
+]
+
+pumpAmount: 0.2
+
+research: {
+  parent: aa-drill
+  requirements: [
+    aa-iron/80
+    ab-tin/30
+  ]
+}
