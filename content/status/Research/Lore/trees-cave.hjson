@@ -1,0 +1,7 @@
+research: {
+  parent: aa-tetra
+  objectives: [
+    river-side
+  ]
+}
+show: true
