@@ -14,6 +14,14 @@ acceptsItems: true
 breakable: true
 destructible: true
 
+research: {
+  parent: aa-drill
+  requirements: [
+    aa-iron/75
+    ab-tin/60
+  ]
+}
+
 outputItem: ae-steel/1
 craftTime: 45
 
