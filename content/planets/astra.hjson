@@ -18,7 +18,8 @@ localizedName: "Astra"
 sectorSize: 2
 sectorSeed: 35
 startSector: 15
-parent: centra
+parent: sun
+solarSystem: sun
 iconColor: 63ad7a
 atmosphereRadIn: 0
 atmosphereRadOut: 0.1
