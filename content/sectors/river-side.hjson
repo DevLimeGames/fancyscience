@@ -4,8 +4,8 @@ difficulty: 1
 captureWave: 10
 showSectorLandInfo: true
 
-localizedName: "River Cave"
-name: "river-cave"
+localizedName: "River Side"
+name: "river-side"
 description: "Your first sector on a new planet."
 
 research: {
