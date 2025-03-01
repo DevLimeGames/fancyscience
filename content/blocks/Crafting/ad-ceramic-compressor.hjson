@@ -8,6 +8,14 @@ requirements: [
   { item: "ab-tin", amount: 50 }
 ]
 
+research: {
+  parent: ae-clay-extractor
+  requirements: [
+    aa-iron/160
+    ab-tin/100
+  ]
+}
+
 hasItems: true
 itemCapacity: 20
 acceptsItems: true
