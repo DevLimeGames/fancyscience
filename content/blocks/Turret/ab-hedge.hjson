@@ -9,7 +9,7 @@ requirements: [
 breakable: true
 destructible: true
 
-range: 180
+range: 216
 inaccuracy: 8
 targetAir: false
 targetGround: true
@@ -30,7 +30,7 @@ ammoTypes: {
     width: 7
     height: 9
     speed: 4
-    lifetime: 60
+    lifetime: 54
     collidesGround: true
     collidesAir: false
     ammoMultiplier: 5
