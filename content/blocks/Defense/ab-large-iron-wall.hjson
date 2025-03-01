@@ -6,3 +6,10 @@ category: "defense"
 requirements: [
   { item: "aa-iron", amount: 24 }
 ]
+
+research: {
+  parent: aa-iron-wall
+  requirements: [
+    aa-iron/48
+  ]
+}
