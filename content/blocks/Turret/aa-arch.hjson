@@ -17,7 +17,7 @@ maxAmmo: 20
 category: turret
 
 research: {
-  parent: tetra
+  parent: aa-tetra
   requirements: [
     aa-iron/10
     ab-tin/8
