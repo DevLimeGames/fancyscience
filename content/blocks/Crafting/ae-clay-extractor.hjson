@@ -1,0 +1,37 @@
+type: "GenericCrafter"
+name: "Clay Extracror"
+health: 180
+size: 2
+category: "crafting"
+requirements: [
+  { item: "aa-iron", amount: 80 },
+  { item: "ab-tin", amount: 40 }
+]
+
+research: {
+  parent: aa-steel-press
+  requirements: [
+    aa-iron/160
+    ab-tin/80
+  ]
+}
+
+hasItems: true
+hasLiquids: true
+acceptLiquids: true
+itemCapacity: 10
+acceptsItems: true
+breakable: true
+destructible: true
+
+craftTime: 60
+outputItem: af-clay/1
+
+consumes: {
+  power: 0.15
+  liquids: {
+    liquids: [
+      { liquid: water, amount: 0.2 }
+    ]
+  }
+}
