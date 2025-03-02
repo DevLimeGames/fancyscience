@@ -9,7 +9,7 @@ Events.on(EventType.MenuEvent, function(event) {
 });
 
 function fetchReleaseDetails() {
-    var currentVersion = "0.4";
+    var currentVersion = "0.5 Preview";
     var repo = "DevLimeGames/fancyscience";
     var apiUrl = "https://api.github.com/repos/" + repo + "/releases/latest";
 
