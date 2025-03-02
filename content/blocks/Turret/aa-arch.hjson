@@ -46,7 +46,7 @@ ammoTypes: {
     damage: 124
     lifetime: 38
     drag: 0.01
-    speed: 2
+    speed: 4
     hittable: false
     absorbable: false
     sprite: iron
