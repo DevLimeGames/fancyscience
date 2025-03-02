@@ -1,7 +1,6 @@
 Events.on(EventType.ClientLoadEvent, () => {
-   const myDialog = new BaseDialog("Fancy Science v0.3");
+  const myDialog = new ModsDialog();
   myDialog.addCloseButton();
-  myDialog.cont.add("Close");
   
   myDialog.show();
 });
