@@ -4,13 +4,3 @@ Events.on(EventType.ClientLoadEvent, () => {
   
   myDialog.show();
 });
-
-Events.on(UnitDestroyEvent, event => {
-  if(event.unit.isPlayer()) {
-    const myDialog = new BaseDialog("Warning");
-  myDialog.cont.add("Seriously, try harder.")
-  myDialog.addCloseButton();
-  
-  myDialog.show();
-  }
-})
