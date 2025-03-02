@@ -1,5 +1,5 @@
 Events.on(EventType.ClientLoadEvent, () => {
-  const myDialog = new BaseDialog("Fancy Science V0.3");
+  const myDialog = new ContentInfoDialog();
   myDialog.addCloseButton();
   
   myDialog.show();
