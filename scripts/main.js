@@ -4,3 +4,9 @@ Events.on(EventType.ClientLoadEvent, () => {
   
   myDialog.show();
 });
+
+Events.on(UnitDestroyEvent, event => {
+  if(event.unit.isPlayer()
+    Vars.ui.hudfrag.showToast("Pathetic.");
+  }
+})
