@@ -6,11 +6,7 @@ Events.on(EventType.ClientLoadEvent, () => {
 });
 
 Events.on(UnitDestroyEvent, event => {
-  if(event.unit.isPlayer()
-    const myDialog = new BaseDialog("Message");
-    myDialog.addCloseButton();
-    myDialog.cont.add("Seriously? Try harder.")
-  
-    myDialog.show();
+  if(event.unit.isPlayer()) {
+    Vars.ui.hudfrag.showToast("Seriously. Try harder.")
   }
 })
