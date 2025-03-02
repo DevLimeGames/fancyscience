@@ -1,9 +1,6 @@
 Events.on(EventType.ClientLoadEvent, () => {
-  const myDialog = new BaseDialog("Dialog Title");
-  // Add "go back" button
+  const myDialog = new BaseDialog("Fancy Science v0.3");
   myDialog.addCloseButton();
-  // Add text to the main content
-  myDialog.cont.add("Goodbye.");
-  // Show dialog
+  myDialog.cont.add("Close");
   myDialog.show();
 });
