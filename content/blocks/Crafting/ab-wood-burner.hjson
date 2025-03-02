@@ -28,7 +28,7 @@ craftTime: 30
 consumes: {
   items: {
     items: [
-      { item: "ac-wood", amount: 2 }
+      { item: "ac-wood", amount: 1 }
     ]
   }
 }
