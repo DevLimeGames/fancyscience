@@ -1,10 +1,14 @@
 Events.on(EventType.ClientLoadEvent, () => {
     Core.app.post(() => {
         let dialog = new BaseDialog("FancyScience Updater");
-        dialog.cont.add("Check for updates and update FancyScience!").padBottom(32).row();
+        dialog.cont.add("Manage your FancyScience installation.").padBottom(32).row();
 
-        dialog.cont.button("Check for Update", () => {
-            checkForUpdate();
+        dialog.cont.button("Install Latest Release", () => {
+            installLatestRelease();
+        }).size(220, 60).padBottom(32).row();
+
+        dialog.cont.button("Install Preview", () => {
+            installPreview();
         }).size(220, 60).padBottom(32).row();
 
         dialog.cont.button("Close", () => {
@@ -15,35 +19,18 @@ Events.on(EventType.ClientLoadEvent, () => {
     });
 });
 
-function checkForUpdate() {
-    let repo = "DevLimeGames/fancyscience";
-    let apiUrl = `https://api.github.com/repos/${repo}/releases/latest`;
+function installLatestRelease() {
+    let latestDownload = "https://github.com/DevLimeGames/fancyscience/releases/latest/download/FancyScience.zip";
 
-    Http.get(apiUrl, (res) => {
-        let json = JSON.parse(res.getResultAsString());
-        if (!json || !json.tag_name) {
-            Vars.ui.showErrorMessage("No valid release found.");
-            return;
-        }
+    Vars.ui.showInfoToast("Downloading Latest Release...", 3);
+    downloadAndUpdateMod(latestDownload);
+}
 
-        let latestVersion = json.tag_name.trim();
-        let currentVersion = Vars.mods.getMod("fancyscience").meta.version.trim();
-        let latestDownload = json.assets.length > 0 ? json.assets[0].browser_download_url : json.zipball_url;
+function installPreview() {
+    let previewDownload = "https://github.com/DevLimeGames/fancyscience/archive/main.zip";
 
-        if (!latestDownload) {
-            Vars.ui.showErrorMessage("No download link found.");
-            return;
-        }
-
-        if (latestVersion !== currentVersion) {
-            Vars.ui.showInfoToast(`New version ${latestVersion} found! Downloading...`, 3);
-            downloadAndUpdateMod(latestDownload);
-        } else {
-            Vars.ui.showInfoToast("You already have the latest version.", 3);
-        }
-    }, (err) => {
-        Vars.ui.showErrorMessage("Failed to check for updates: " + err);
-    });
+    Vars.ui.showInfoToast("Downloading Preview Version...", 3);
+    downloadAndUpdateMod(previewDownload);
 }
 
 function downloadAndUpdateMod(url) {
