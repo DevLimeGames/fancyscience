@@ -9,16 +9,13 @@ destructible: true
 
 drawer: {
   type: DrawMulti
-  iconOverride: [
-    -icon
-  ]
   drawers: [
     {
       type: DrawDefault
     }
     {
       type: DrawBlurSpin
-      suffix: -fan
+      suffix: -rotator
       blurThresh: 0.4
       rotateSpeed: 120
     }
