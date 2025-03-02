@@ -14,26 +14,36 @@ function showFancyScienceMenu() {
         dialog.cont.add("Welcome to FancyScience!").padBottom(16).row();
 
         dialog.cont.button("Campaign", () => {
-            Vars.ui.loadAnd(MenuState.mode.campaign);
+            dialog.hide();
+            Vars.ui.menufrag.toggleMenu();
+            Vars.ui.campaign.show();
         }).size(220, 60).padBottom(16).row();
 
         dialog.cont.button("Load Game", () => {
-            Vars.ui.loadAnd(MenuState.mode.saves);
+            dialog.hide();
+            Vars.ui.menufrag.toggleMenu();
+            Vars.ui.saves.show();
         }).size(220, 60).padBottom(16).row();
 
         dialog.cont.button("Custom Game", () => {
-            Vars.ui.loadAnd(MenuState.mode.custom);
+            dialog.hide();
+            Vars.ui.menufrag.toggleMenu();
+            Vars.ui.custom.show();
         }).size(220, 60).padBottom(16).row();
 
         dialog.cont.button("Map Maker", () => {
-            Vars.ui.loadAnd(MenuState.mode.editor);
+            dialog.hide();
+            Vars.ui.menufrag.toggleMenu();
+            Vars.ui.editor.show();
         }).size(220, 60).padBottom(16).row();
 
         dialog.cont.button("Mods", () => {
+            dialog.hide();
             Vars.ui.mods.show();
         }).size(220, 60).padBottom(16).row();
 
         dialog.cont.button("Settings", () => {
+            dialog.hide();
             Vars.ui.settings.show();
         }).size(220, 60).padBottom(16).row();
 
