@@ -21,26 +21,25 @@ Events.on(EventType.ClientLoadEvent, () => {
 
 function installLatestRelease() {
     let latestDownload = "https://github.com/DevLimeGames/fancyscience/releases/latest/download/FancyScience.zip";
-
     Vars.ui.showInfoToast("Downloading Latest Release...", 3);
     downloadAndUpdateMod(latestDownload);
 }
 
 function installPreview() {
     let previewDownload = "https://github.com/DevLimeGames/fancyscience/archive/main.zip";
-
     Vars.ui.showInfoToast("Downloading Preview Version...", 3);
     downloadAndUpdateMod(previewDownload);
 }
 
 function downloadAndUpdateMod(url) {
-    let modPath = Vars.mods.getMod("fancyscience").file.absolutePath();
+    let modFolder = Vars.mods.getMod("fancyscience").file.parent(); 
+    let tempFile = modFolder.child("FancyScience_Temp.zip");
 
     Http.get(url, (res) => {
         let bytes = res.getResult();
         if (bytes) {
-            Core.files.write(modPath, bytes);
-            Vars.ui.showInfoToast("FancyScience updated! Restart the game.", 4);
+            tempFile.writeBytes(bytes, false);
+            Vars.ui.showInfoToast("Download complete! Restart the game to apply the update.", 4);
         } else {
             Vars.ui.showErrorMessage("Update failed!");
         }
