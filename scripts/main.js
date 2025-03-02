@@ -7,6 +7,9 @@ Events.on(EventType.ClientLoadEvent, () => {
 
 Events.on(UnitDestroyEvent, event => {
   if(event.unit.isPlayer()
-    Vars.ui.hudfrag.showToast("Pathetic.");
+    const myDialog = new BaseDialog("Message");
+    myDialog.addCloseButton();
+  
+    myDialog.show();
   }
 })
