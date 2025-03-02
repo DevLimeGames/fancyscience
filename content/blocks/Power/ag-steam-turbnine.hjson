@@ -27,7 +27,7 @@ drawer: {
 }
 
 consumes: {
-  liquid: steam/0.1
+  liquid: aa-steam/0.1
 }
 
 outputLiquid: water/0.05
