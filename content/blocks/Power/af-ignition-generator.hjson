@@ -22,7 +22,7 @@ acceptsItems: true
 breakable: true
 destructible: true
 
-itemDuration: 90
+itemDuration: 120
 powerProduction: 1.5
 
 consumes: {
