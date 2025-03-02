@@ -1,3 +1,12 @@
+type: "ConsumeGenerator"
+name: "Steam Turbine"
+health: 120
+size: 1
+category: "power"
+
+breakable: true
+destructible: true
+
 drawer: {
   type: DrawMulti
   iconOverride: [
