@@ -1,22 +1,3 @@
-type: ConsumeGenerator
-size: 2
-liquidCapacity: 600
-squareSprite: false 
-effectChance: 0.1
-warmupSpeed: 0.01
-generateEffectRange: 3
-generateEffect: {
-  particles: 1
-  length: 50
-  lifetime: 240
-  cone: 12
-  baseRotation: 32
-  sizeFrom: 0
-  sizeTo: 4
-  colorTo: ffffff00
-  sizeInterp: pow2Out
-  interp: pow2Out
-}
 drawer: {
   type: DrawMulti
   iconOverride: [
@@ -38,21 +19,17 @@ drawer: {
     }
   ]
 }
-consumes: {
-  liquid: steam/2.5
-}
-powerProduction: 15
 
-outputLiquid: water/
+consumes: {
+  liquid: steam/0.1
+}
+
+outputLiquid: water/0.05
 category: power
 research: {
-  parent:  0b04-00-03-industrial-turbine
-  objectives: [
-    0b-condenser-turbines
-  ]
+  parent:  af-ignition-generator
 }
+
 requirements: [
-  dantrales/140
-  territe-alloy/400
-  baenite/50
+  aa-iron/140
 ]
