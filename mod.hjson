@@ -1,8 +1,8 @@
 name: "FancyScience"
 displayName: "Fancy Science"
 author: "DevLimeGames/PandaIndustryMix"
-description: "Science come with fanciness. Introduce a new planet name Astra meaning hope. Install via release."
-version: "0.3"
+description: "Science come with fanciness. Introduce a new planet name Astra meaning hope."
+version: "0.4"
 minGameVersion: "146"
 dependencies: [ ]
 hidden: false
