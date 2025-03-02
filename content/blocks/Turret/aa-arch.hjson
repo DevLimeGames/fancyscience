@@ -32,7 +32,6 @@ ammoTypes: {
     speed: 4
     hittable: false
     absorbable: false
-    sprite: iron
     frontColor: e58956
     backColor: ffd2ae
     width: 16
@@ -49,7 +48,6 @@ ammoTypes: {
     speed: 4
     hittable: false
     absorbable: false
-    sprite: iron
     frontColor: e58956
     backColor: ffd2ae
     width: 16
