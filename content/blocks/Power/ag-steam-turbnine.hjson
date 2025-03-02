@@ -17,7 +17,7 @@ drawer: {
       type: DrawBlurSpin
       suffix: -rotator
       blurThresh: 0.4
-      rotateSpeed: 120
+      rotateSpeed: 16
     }
     {
       type: DrawRegion
