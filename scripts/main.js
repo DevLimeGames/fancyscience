@@ -28,9 +28,9 @@ function fetchReleaseDetails() {
 function showFancyScienceChangelog(currentVersion, latestVersion, releaseNotes, githubReleaseURL) {
     Core.app.post(function() {
         var dialog = new BaseDialog("FancyScience Changelog");
-        dialog.cont.add("[accent]FancyScience - Latest Release[/]").padBottom(16).row();
-        dialog.cont.add("[lightgray]Current Version: " + currentVersion + "[/]").padBottom(16).row();
-        dialog.cont.add("[lightgray]Latest Version: " + latestVersion + "[/]").padBottom(16).row();
+        dialog.cont.add("[accent]FancyScience - Latest Release").padBottom(16).row();
+        dialog.cont.add("[lightgray]Current Version: " + currentVersion).padBottom(16).row();
+        dialog.cont.add("[lightgray]Latest Version: " + latestVersion).padBottom(16).row();
         dialog.cont.add(releaseNotes).width(400).wrap().padBottom(16).row();
 
         dialog.cont.button("View on GitHub", function() {
