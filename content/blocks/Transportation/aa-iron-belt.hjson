@@ -7,7 +7,7 @@ requirements: [
   { item: "aa-iron", amount: 1 }
 ]
 
-speed: 0.03
+speed: 0.1
 displayedSpeed: 6
 
 research: {
