@@ -27,7 +27,6 @@ craftTime: 60
 outputItem: af-clay/1
 
 consumes: {
-  power: 0.15
   liquids: {
     liquids: [
       { liquid: water, amount: 0.2 }
