@@ -3,6 +3,9 @@ name: "Steam Turbine"
 health: 120
 size: 2
 category: "power"
+requirements: [
+  aa-iron/140
+]
 
 breakable: true
 destructible: true
@@ -14,10 +17,10 @@ drawer: {
       type: DrawDefault
     }
     {
-      type: DrawBlurSpin
+      type: DrawRegion
       suffix: -rotator
-      blurThresh: 0.4
       rotateSpeed: 8
+      buildingRotate: true
     }
     {
       type: DrawRegion
@@ -35,7 +38,3 @@ category: power
 research: {
   parent:  af-ignition-generator
 }
-
-requirements: [
-  aa-iron/140
-]
