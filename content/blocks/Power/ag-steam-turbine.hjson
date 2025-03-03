@@ -4,12 +4,14 @@ health: 120
 size: 2
 category: "power"
 requirements: [
-  aa-iron/140
+  aa-iron/90
+  ab-tin/65
+  ag-ceramic/55
 ]
 breakable: true
 destructible: true
 
-powerProduction: 1.5
+powerProduction: 4
 
 drawer: {
   type: DrawMulti
