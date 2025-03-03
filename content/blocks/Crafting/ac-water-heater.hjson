@@ -27,7 +27,7 @@ outputLiquid: aa-steam/0.2
 craftTime: 60
 
 consumes: {
-  power: 0.4
+  power: 0.8
   items: {
     items: [
       { item: "ad-charcoal", amount: 2 }
