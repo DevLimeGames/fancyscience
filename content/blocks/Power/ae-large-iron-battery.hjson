@@ -1,0 +1,24 @@
+type: "Battery"
+name: "Iron Battery"
+health: 120
+size: 1
+category: "power"
+requirements: [
+  { item: "aa-steel", amount: 5 },
+  { item: "ab-tin", amount: 10 }
+]
+
+consumes: {
+  powerBuffered: 6000
+}
+
+research: {
+  parent: aa-iron-node
+  requirements: [
+    aa-steel/10
+    ab-tin/20
+  ]
+}
+
+breakable: true
+destructible: true
