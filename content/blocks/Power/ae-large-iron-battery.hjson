@@ -6,7 +6,7 @@ category: "power"
 requirements: [
   { item: "ae-steel", amount: 5 },
   { item: "ab-tin", amount: 10 },
-  { item: "ah-magnet", amount: 5}
+  { item: "ai-magnet", amount: 5}
 ]
 
 consumes: {
@@ -18,7 +18,7 @@ research: {
   requirements: [
     aa-steel/10
     ab-tin/20
-    ah-magnet/10
+    ai-magnet/10
   ]
 }
 
