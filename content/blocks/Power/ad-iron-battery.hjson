@@ -8,6 +8,10 @@ requirements: [
   { item: "ab-tin", amount: 10 }
 ]
 
+consumes: {
+  powerBuffered: 2000
+}
+
 research: {
   parent: aa-iron-node
   requirements: [
