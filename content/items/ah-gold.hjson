@@ -3,7 +3,7 @@ description: "Use for encoating."
 color: AA9900
 
 hardness: 2
-charge: 0.15
+charge: 0
 radioactivity: 0
 flammability: 0
 explosiveness: 0
