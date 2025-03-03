@@ -4,15 +4,15 @@ health: 120
 size: 1
 category: "power"
 requirements: [
-  { item: "aa-iron", amount: 16 },
-  { item: "ab-tin", amount: 8 }
+  { item: "aa-iron", amount: 5 },
+  { item: "ab-tin", amount: 10 }
 ]
 
 research: {
-  parent: aa-drill
+  parent: aa-iron-node
   requirements: [
-    aa-iron/32
-    ab-tin/16
+    aa-iron/10
+    ab-tin/20
   ]
 }
 
