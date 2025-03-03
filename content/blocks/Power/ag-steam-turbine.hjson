@@ -1,7 +1,7 @@
 type: "ConsumeGenerator"
 name: "Steam Turbine"
 health: 120
-size: 1
+size: 2
 category: "power"
 
 breakable: true
@@ -17,7 +17,7 @@ drawer: {
       type: DrawBlurSpin
       suffix: -rotator
       blurThresh: 0.4
-      rotateSpeed: 16
+      rotateSpeed: 8
     }
     {
       type: DrawRegion
