@@ -2,12 +2,6 @@ Events.on(EventType.ClientLoadEvent, function() {
     fetchReleaseDetails();
 });
 
-Events.on(EventType.MenuEvent, function(event) {
-    if (event.menu == MenuState.main) {
-        Time.runTask(10, fetchReleaseDetails);
-    }
-});
-
 function fetchReleaseDetails() {
     var currentVersion = "0.5 Preview";
     var repo = "DevLimeGames/fancyscience";
