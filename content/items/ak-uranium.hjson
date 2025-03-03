@@ -1,0 +1,9 @@
+name: "Uranium"
+description: "Advance energy making."
+color: 8EAA7F
+
+hardness: 4
+charge: 0
+radioactivity: 0
+flammability: 0
+explosiveness: 0
