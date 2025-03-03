@@ -1,0 +1,9 @@
+name: "Corium"
+description: "Most Advance energy making."
+color: 00BBBB
+
+hardness: 4
+charge: 1
+radioactivity: 1
+flammability: 0.3
+explosiveness: 1
