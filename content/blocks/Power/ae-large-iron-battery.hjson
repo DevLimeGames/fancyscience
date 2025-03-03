@@ -1,5 +1,5 @@
 type: "Battery"
-name: "Iron Battery"
+name: "Large Iron Battery"
 health: 120
 size: 1
 category: "power"
