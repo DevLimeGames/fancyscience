@@ -1,11 +1,12 @@
 type: "Battery"
 name: "Large Iron Battery"
 health: 120
-size: 1
+size: 3
 category: "power"
 requirements: [
-  { item: "aa-steel", amount: 5 },
-  { item: "ab-tin", amount: 10 }
+  { item: "ae-steel", amount: 5 },
+  { item: "ab-tin", amount: 10 },
+  { item: "ah-magnet", amount: 5}
 ]
 
 consumes: {
@@ -13,10 +14,11 @@ consumes: {
 }
 
 research: {
-  parent: aa-iron-node
+  parent: ad-iron-battery
   requirements: [
     aa-steel/10
     ab-tin/20
+    ah-magnet/10
   ]
 }
 
