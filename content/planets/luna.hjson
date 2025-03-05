@@ -1,0 +1,93 @@
+generator: {
+  berylChance: 0.3
+  iceChance: 0.4
+  ferricChance: 0.6
+  stoneChance: 1.8
+  radMin: 1200
+  radMax: 1200
+  berylliumScale: 3
+  copperScale: 0.5
+  scale: 20
+  mag: 0.4
+  thresh: 0.85
+  fscl: 25
+  fper: 0.35
+}
+
+localizedName: "Luna"
+sectorSize: 2
+sectorSeed: 35
+startSector: 15
+accessible: false
+parent: astra
+solarSystem: sun
+iconColor: 7a7a7a
+orbitRadius: 5
+orbitOffset: 45
+orbitTime: 2500
+rotateTime: 2500
+atmosphereRadIn: 0
+atmosphereRadOut: 0.02
+atmosphereColor: 9a9a9a
+
+allowLaunchSchematics: false
+allowLaunchLoadout: false
+allowWaveSimulation: true
+allowSectorInvasion: false
+clearSectorOnLose: true
+prebuildBase: false
+allowWaves: false
+allowLaunchToNumbered: false
+enemyBuildSpeedMultiplier: 1
+defaultCore: aa-tetra
+icon: planet
+
+mesh: [
+  {
+    type: NoiseMesh
+    divisions: 6
+    radius: 0.95
+    color1: 8b8b8b
+    color2: 747474
+    octaves: 2
+    persistence: 0.6
+    scale: 0.3
+    mag: 1.2
+    coct: 2
+    cper: 1
+    cscl: 1.5
+    cthresh: 1.2
+  }
+  {
+    type: NoiseMesh
+    divisions: 6
+    radius: 0.92
+    color1: 6a6a6a
+    color2: 525252
+    octaves: 3
+    persistence: 0.8
+    scale: 0.5
+    mag: 0.9
+    coct: 3
+    cper: 1
+    cscl: 1.2
+    cthresh: 1.1
+  }
+  {
+    type: NoiseMesh
+    divisions: 6
+    radius: 0.88
+    color1: 3a3a3a
+    color2: 2a2a2a
+    octaves: 4
+    persistence: 0.9
+    scale: 0.7
+    mag: 0.6
+    coct: 4
+    cper: 1
+    cscl: 1.1
+    cthresh: 1
+  }
+]
+
+cloudMesh: [ ]
