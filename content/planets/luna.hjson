@@ -7,7 +7,7 @@ generator: {
   radMax: 1200
   berylliumScale: 3
   copperScale: 0.5
-  scale: 20
+  scale: 10
   mag: 0.4
   thresh: 0.85
   fscl: 25
@@ -17,13 +17,13 @@ generator: {
 localizedName: "Luna"
 sectorSize: 2
 sectorSeed: 35
-startSector: 15
-accessible: false
+startSector: 1
+accessible: true
 parent: astra
 solarSystem: sun
 iconColor: 7a7a7a
 orbitRadius: 5
-orbitOffset: 45
+orbitOffset: 55
 orbitTime: 2500
 rotateTime: 2500
 atmosphereRadIn: 0
