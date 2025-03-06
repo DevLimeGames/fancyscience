@@ -33,10 +33,10 @@ atmosphereColor: 9a9a9a
 allowLaunchSchematics: false
 allowLaunchLoadout: false
 allowWaveSimulation: true
-allowSectorInvasion: false
+allowSectorInvasion: true
 clearSectorOnLose: true
-prebuildBase: false
-allowWaves: false
+prebuildBase: true
+allowWaves: true
 allowLaunchToNumbered: false
 enemyBuildSpeedMultiplier: 1
 defaultCore: aa-tetra
