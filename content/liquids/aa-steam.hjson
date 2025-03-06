@@ -1,6 +1,0 @@
-name: "Steam"
-gas: true
-description: "Use for energy production."
-color: DDDDDD
-
-temperature: 0.7

@@ -1,9 +1,0 @@
-localizedName: "The Lore"
-name: "lore"
-description: "What, Why and How. Find out by finishing the game."
-
-research: {
-  parent: aa-tetra
-}
-
-show: true

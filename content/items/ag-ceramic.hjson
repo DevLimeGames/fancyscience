@@ -1,9 +1,0 @@
-name: "Ceramic"
-description: "Use for water storages and transportation."
-color: D2B58D
-
-hardness: 0
-charge: 0
-radioactivity: 0
-flammability: 0
-explosiveness: 0
