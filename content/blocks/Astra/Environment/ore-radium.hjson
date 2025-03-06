@@ -1,0 +1,6 @@
+type: "OreBlock"
+name: "radium-ore"
+localizedName: "Radium Ore"
+itemDrop: "aj-radium"
+oreDefault: true
+mapColor: 9EA98F

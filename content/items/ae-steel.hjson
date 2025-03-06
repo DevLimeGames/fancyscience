@@ -1,0 +1,9 @@
+name: "Steel"
+description: "Reinforced version of Iron also a fundamental building unit."
+color: CCCCCC
+
+hardness: 2
+charge: 0
+radioactivity: 0
+flammability: 0
+explosiveness: 0

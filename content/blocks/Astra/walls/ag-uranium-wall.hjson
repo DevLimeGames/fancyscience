@@ -1,0 +1,15 @@
+type: "Wall"
+name: "Uranium Wall"
+health: 1248
+size: 1
+category: "defense"
+requirements: [
+  { item: "ak-uranium", amount: 6 }
+]
+
+research: {
+  parent: ad-large-steel-wall
+  requirements: [
+    ak-uranium/12
+  ]
+}

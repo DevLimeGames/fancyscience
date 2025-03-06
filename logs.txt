@@ -1,0 +1,19 @@
+- March / 5 / 2025
+  - Added:
+    - Blocks:
+      - Cor Pylon, Magnetizer, Cor Mixer, Recyler, Penta, Magnet Drill, Gold Wall, Large Gold Wall, Uranium Wall, Large Uranium Wall, Cor Wall, Large Cor Wall, Hexa
+    
+    - Planets:
+      - Luna
+
+    - Sprites:
+      - Blaze, Current, Launcher, Eradicator
+  
+  - Modified:
+    - Blocks:
+      -Iron Bridge, Hedge, Water Heater
+
+- March / 6 / 2025
+  - Added:
+    - Blocks:
+      - Gold Ore, Radium Ore, Uranium Ore, Recyler

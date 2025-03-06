@@ -1,0 +1,6 @@
+type: "OreBlock"
+name: "tin-ore"
+localizedName: "Tin Ore"
+itemDrop: "ab-tin"
+oreDefault: true
+mapColor: 777777

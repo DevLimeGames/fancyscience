@@ -1,0 +1,25 @@
+type: "PowerNode"
+name: "Iron Node"
+health: 120
+size: 1
+category: "power"
+requirements: [
+  { item: "aa-iron", amount: 16 },
+  { item: "ab-tin", amount: 8 }
+]
+
+research: {
+  parent: aa-drill
+  requirements: [
+    aa-iron/32
+    ab-tin/16
+  ]
+}
+
+breakable: true
+destructible: true
+
+laserRange: 6
+maxNodes: 5
+autolink: true
+laserScale: 0.2

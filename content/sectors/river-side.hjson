@@ -1,0 +1,18 @@
+sector: 15
+planet: astra
+difficulty: 1
+captureWave: 10
+showSectorLandInfo: true
+addStartingItems: false
+
+localizedName: "River Side"
+name: "river-side"
+description: "Your first sector on a new planet."
+
+research: {
+  parent: aa-tetra
+  objectives: [
+  ]
+}
+
+alwaysUnlocked: true

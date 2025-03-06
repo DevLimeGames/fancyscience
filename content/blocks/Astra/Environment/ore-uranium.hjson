@@ -1,0 +1,6 @@
+type: "OreBlock"
+name: "uranium-ore"
+localizedName: "Uranium Ore"
+itemDrop: "ak-uranium"
+oreDefault: true
+mapColor: 8EAA7F

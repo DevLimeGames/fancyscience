@@ -1,0 +1,15 @@
+type: "Wall"
+name: "Large Uranium Wall"
+health: 4320
+size: 2
+category: "defense"
+requirements: [
+  { item: "ak-uranium", amount: 24 }
+]
+
+research: {
+  parent: af-uranium-wall
+  requirements: [
+    ak-uranium/12
+  ]
+}

@@ -1,0 +1,15 @@
+type: "Wall"
+name: "Large Iron Wall"
+health: 2080
+size: 2
+category: "defense"
+requirements: [
+  { item: "aa-iron", amount: 24 }
+]
+
+research: {
+  parent: aa-iron-wall
+  requirements: [
+    aa-iron/48
+  ]
+}

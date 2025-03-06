@@ -1,0 +1,9 @@
+name: "Charcoal"
+description: "Similar to coal, use in fuel and energy making."
+color: 111111
+
+hardness: 1
+charge: 0
+radioactivity: 0
+flammability: 1
+explosiveness: 0.1
