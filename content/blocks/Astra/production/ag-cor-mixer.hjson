@@ -1,0 +1,43 @@
+type: "GenericCrafter"
+name: "Magnetizer"
+health: 420
+size: 3
+category: "crafting"
+requirements: [
+  aa-iron/220
+  ab-tin/120 
+  ah-gold/80
+]
+
+research: {
+  parent: aa-steel-press
+  requirements: [
+    aa-iron/440
+    ab-tin/240
+    ah-gold/160
+  ]
+}
+
+hasItems: true
+itemCapacity: 20
+acceptsItems: true
+breakable: true
+destructible: true
+
+craftTime: 90
+outputItem: ai-magnet/1
+
+consumes: {
+  power: 2
+  items: {
+    items: [
+      ak-uranium/5
+      ah-gold/10
+    ]
+  }
+  liquids: {
+    liquids: [
+      ab-purified-water/0.1
+    ]
+  }
+}

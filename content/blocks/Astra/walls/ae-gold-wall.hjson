@@ -1,0 +1,15 @@
+type: "Wall"
+name: "Gold Wall"
+health: 1000
+size: 1
+category: "defense"
+requirements: [
+  { item: "ah-gold", amount: 6 }
+]
+
+research: {
+  parent: ab-large-iron-wall
+  requirements: [
+    ah-gold/12
+  ]
+}

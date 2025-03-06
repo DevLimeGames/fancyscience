@@ -1,0 +1,35 @@
+type: "GenericCrafter"
+name: "Ceramic Compressor"
+health: 130
+size: 2
+category: "crafting"
+requirements: [
+  { item: "aa-iron", amount: 80 },
+  { item: "ab-tin", amount: 50 }
+]
+
+research: {
+  parent: ae-clay-extractor
+  requirements: [
+    aa-iron/160
+    ab-tin/100
+  ]
+}
+
+hasItems: true
+itemCapacity: 20
+acceptsItems: true
+breakable: true
+destructible: true
+
+outputItem: ag-ceramic/1
+craftTime: 90
+
+consumes: {
+  power: 0.7
+  items: {
+    items: [
+      { item: "af-clay", amount: 4 }
+    ]
+  }
+}

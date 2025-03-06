@@ -1,0 +1,44 @@
+type: "GenericCrafter"
+name: "Water Heater"
+health: 120
+size: 2
+category: "crafting"
+requirements: [
+  { item: "aa-iron", amount: 80 },
+  { item: "ab-tin", amount: 40 }
+]
+
+research: {
+  parent: aa-steel-press
+  requirements: [
+    aa-iron/160
+    ab-tin/80
+  ]
+}
+
+hasItems: true
+hasLiquids: true
+itemCapacity: 10
+acceptsItems: true
+breakable: true
+destructible: true
+
+outputLiquid: aa-steam/0.2
+craftTime: 60
+
+consumes: {
+  power: 1.2
+  items: {
+    items: [
+      { item: "ad-charcoal", amount: 2 }
+     ]
+  },
+  liquids: {
+    liquids: [
+      { liquid: water, amount: 0.2 }
+    ]
+    liquids: [
+      ab-purified-water/0.2
+    ]
+  }
+}

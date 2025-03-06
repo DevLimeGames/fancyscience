@@ -1,0 +1,23 @@
+type: "CoreBlock"
+name: "Hexa"
+health: 4096
+unitType: alpha
+requiresCoreZone: true
+isFirstTier: false
+category: "effect"
+requirements: [
+  aa-iron/6400
+  ab-tin/5600
+  ae-steel/2000
+  ah-gold/1600
+  al-corium/1000
+]
+
+itemCapacity: 8000
+hasItems: true
+acceptsItems: true
+size: 5
+
+research: {
+  parent: ab-penta
+}

@@ -23,21 +23,20 @@ parent: astra
 solarSystem: sun
 iconColor: 7a7a7a
 orbitRadius: 5
-orbitOffset: 85
+orbitOffset: 125
 orbitTime: 2500
 rotateTime: 2500
 atmosphereRadIn: 0
 atmosphereRadOut: 0.02
 atmosphereColor: 9a9a9a
-defaultEnv: 129
 
 allowLaunchSchematics: false
 allowLaunchLoadout: false
 allowWaveSimulation: true
-allowSectorInvasion: true
+allowSectorInvasion: false
 clearSectorOnLose: true
-prebuildBase: true
-allowWaves: true
+prebuildBase: false
+allowWaves: false
 allowLaunchToNumbered: false
 enemyBuildSpeedMultiplier: 1
 defaultCore: aa-tetra

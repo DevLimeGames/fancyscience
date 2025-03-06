@@ -1,0 +1,10 @@
+Format:
+Name ( Role ) [ Id ]
+
+- Github:
+  - DevLimeGames ( Author ) [ 1 ]
+  - Rendezvoir ( Beta Tester ) [ 2 ]
+
+- Discord:
+  - pandaindustry ( Author ) [ 1 ]
+  - rendezvoir_ ( Beta Tester ) [ 2 ]
