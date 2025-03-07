@@ -1,0 +1,15 @@
+type: "Wall"
+name: "Iron Wall"
+health: 580
+size: 1
+category: "defense"
+requirements: [
+  { item: "aa-iron", amount: 6 }
+]
+
+research: {
+  parent: aa-arch
+  requirements: [
+    aa-iron/12
+  ]
+}

@@ -1,0 +1,43 @@
+type: "ConsumeGenerator"
+name: "Steam Turbine"
+health: 120
+size: 2
+category: "power"
+requirements: [
+  aa-iron/90
+  ab-tin/65
+  ag-ceramic/55
+]
+breakable: true
+destructible: true
+
+powerProduction: 4
+
+drawer: {
+  type: DrawMulti
+  drawers: [
+    {
+      type: DrawDefault
+    }
+    {
+      type: DrawRegion
+      suffix: -rotator
+      rotateSpeed: 8
+      buildingRotate: true
+    }
+    {
+      type: DrawRegion
+      suffix: -top
+    }
+  ]
+}
+
+consumes: {
+  liquid: aa-steam/0.1
+}
+
+outputLiquid: water/0.05
+category: power
+research: {
+  parent:  af-ignition-generator
+}

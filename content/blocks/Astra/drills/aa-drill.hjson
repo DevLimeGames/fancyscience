@@ -1,0 +1,20 @@
+type: "Drill"
+name: "Drill"
+health: 180
+size: 2
+category: "production"
+
+requirements: [
+  { item: "aa-iron", amount: 12 },
+]
+
+hardnessDrillMultiplier: 1
+drillTime: 600
+tier: 1
+
+research: {
+  parent: aa-tetra
+  requirements: [
+    aa-iron/8
+  ]
+}

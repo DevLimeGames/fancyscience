@@ -1,0 +1,39 @@
+type: "GenericCrafter"
+name: "Recyler"
+health: 90
+size: 2
+category: "crafting"
+requirements: [
+  aa-iron/60
+  ab-tin/30
+]
+
+research: {
+  parent: ah-trash-compressor
+  requirements: [
+    aa-iron/120
+    ab-tin/60
+  ]
+}
+
+hasItems: true
+itemCapacity: 10
+acceptsItems: true
+breakable: true
+destructible: true
+
+craftTime: 90
+outputItems: [
+  aa-iron/2
+  ab-tin/1
+  af-clay/1
+]
+
+consumes: {
+  power: 0.9
+  items: {
+    items: [
+      am-trash/2
+    ]
+  }
+}

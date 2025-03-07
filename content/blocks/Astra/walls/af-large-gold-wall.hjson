@@ -1,0 +1,15 @@
+type: "Wall"
+name: "Large Gold Wall"
+health: 4000
+size: 2
+category: "defense"
+requirements: [
+  { item: "ah-gold", amount: 24 }
+]
+
+research: {
+  parent: ae-gold-wall
+  requirements: [
+    ah-gold/48
+  ]
+}

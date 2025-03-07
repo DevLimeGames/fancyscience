@@ -1,0 +1,6 @@
+type: "OreBlock"
+name: "gold-ore"
+localizedName: "Gold Ore"
+itemDrop: "ah-gold"
+oreDefault: true
+mapColor: 777700

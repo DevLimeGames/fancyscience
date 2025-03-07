@@ -1,0 +1,24 @@
+type: "Drill"
+name: "Magnet Drill"
+health: 180
+size: 2
+category: "production"
+
+requirements: [
+  aa-iron/80
+  ab-tin/20
+  ai-magnet/48 
+]
+
+hardnessDrillMultiplier: 2
+drillTime: 600
+tier: 2
+
+research: {
+  parent: aa-drill
+  requirements: [
+    aa-iron/160
+    ab-tin/40
+    ai-magnet/56
+  ]
+}

@@ -1,0 +1,22 @@
+type: "CoreBlock"
+name: "Penta"
+health: 2048
+unitType: alpha
+requiresCoreZone: true
+isFirstTier: false
+category: "effect"
+requirements: [
+  aa-iron/3200
+  ab-tin/2800
+  ae-steel/1000
+  ah-gold/800
+]
+
+itemCapacity: 4000
+hasItems: true
+acceptsItems: true
+size: 4
+
+research: {
+  parent: aa-tetra
+}

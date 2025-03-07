@@ -1,0 +1,23 @@
+type: "PowerNode"
+name: "Cor Pylon"
+health: 120
+size: 2
+category: "power"
+requirements: [
+  { item: "al-corium", amount: 24 },
+]
+
+research: {
+  parent: ab-large-iron-node
+  requirements: [
+    ae-steel/48
+  ]
+}
+
+breakable: true
+destructible: true
+
+laserRange: 45
+maxNodes: 2
+autolink: true
+laserScale: 0.2

@@ -1,0 +1,15 @@
+type: "Wall"
+name: "Large Cor Wall"
+health: 5024
+size: 2
+category: "defense"
+requirements: [
+  { item: "al-corium", amount: 24 }
+]
+
+research: {
+  parent: ai-cor-wall
+  requirements: [
+    al-corium/48
+  ]
+}
