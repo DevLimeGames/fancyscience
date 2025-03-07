@@ -1,9 +1,0 @@
-name: "Radium"
-description: "Semi-Advance energy making."
-color: 9EA98F
-
-hardness: 3
-charge: 0.6
-radioactivity: 0.6
-flammability: 0
-explosiveness: 0.4
