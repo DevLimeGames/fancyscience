@@ -22,8 +22,8 @@ accessible: true
 parent: astra
 solarSystem: sun
 iconColor: 7a7a7a
-orbitRadius: 5
-orbitOffset: 125
+orbitRadius: 10
+orbitOffset: 60
 orbitTime: 2500
 rotateTime: 2500
 atmosphereRadIn: 0

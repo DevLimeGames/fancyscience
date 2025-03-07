@@ -54,8 +54,8 @@ mesh: [
     type: NoiseMesh
     divisions: 6
     radius: 1.05
-    color1: 2b6ed6
-    color2: 1b4c9c
+    color1: 3388e6
+    color2: 1c5bbd
     octaves: 5
     persistence: 0.7
     scale: 0.9
@@ -68,9 +68,24 @@ mesh: [
   {
     type: NoiseMesh
     divisions: 6
+    radius: 1.04
+    color1: 65c96a
+    color2: 4da35a
+    octaves: 4
+    persistence: 0.8
+    scale: 0.85
+    mag: 0.35
+    coct: 3
+    cper: 1
+    cscl: 2
+    cthresh: 1.2
+  }
+  {
+    type: NoiseMesh
+    divisions: 6
     radius: 1.03
-    color1: 59a75d
-    color2: 3d8a46
+    color1: 57b861
+    color2: 3e9647
     octaves: 4
     persistence: 0.75
     scale: 0.8
@@ -83,13 +98,28 @@ mesh: [
   {
     type: NoiseMesh
     divisions: 6
+    radius: 1.025
+    color1: af8c5a
+    color2: 7a5e3b
+    octaves: 4
+    persistence: 0.85
+    scale: 0.7
+    mag: 0.5
+    coct: 4
+    cper: 1
+    cscl: 1.6
+    cthresh: 1
+  }
+  {
+    type: NoiseMesh
+    divisions: 6
     radius: 1.02
-    color1: 9e8357
-    color2: 6b5a3a
+    color1: 6b5a4b
+    color2: 4c3f35
     octaves: 3
     persistence: 0.8
     scale: 0.7
-    mag: 0.35
+    mag: 0.55
     coct: 4
     cper: 1
     cscl: 1.5
@@ -99,11 +129,11 @@ mesh: [
     type: NoiseMesh
     divisions: 6
     radius: 1.015
-    color1: 545454
-    color2: 3a3a3a
-    octaves: 4
-    persistence: 0.7
-    scale: 0.8
+    color1: 854585
+    color2: 522b52
+    octaves: 5
+    persistence: 0.85
+    scale: 0.6
     mag: 0.4
     coct: 4
     cper: 1
@@ -114,12 +144,12 @@ mesh: [
     type: NoiseMesh
     divisions: 6
     radius: 1.01
-    color1: 4d1f4d
-    color2: 251225
+    color1: 531f53
+    color2: 2a0d2a
     octaves: 5
     persistence: 0.85
     scale: 0.6
-    mag: 0.5
+    mag: 0.3
     coct: 4
     cper: 1
     cscl: 2
@@ -129,12 +159,12 @@ mesh: [
     type: NoiseMesh
     divisions: 6
     radius: 1.005
-    color1: 210d21
-    color2: 0f070f
+    color1: 241024
+    color2: 12080f
     octaves: 4
     persistence: 0.9
     scale: 0.5
-    mag: 0.6
+    mag: 0.2
     coct: 4
     cper: 1
     cscl: 2
@@ -159,7 +189,7 @@ cloudMesh: [
     speed: 1
     divisions: 6
     radius: 0.12
-    color: cccccc88
+    color: dddddd88
     octaves: 2
     persistence: 0.5
     scl: 0.9
@@ -170,7 +200,7 @@ cloudMesh: [
     speed: -1
     divisions: 5
     radius: 0.08
-    color: 5b2c5b
+    color: 703070
     octaves: 2
     persistence: 0.6
     scl: 0.8
