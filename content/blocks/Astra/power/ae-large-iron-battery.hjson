@@ -16,7 +16,7 @@ consumes: {
 research: {
   parent: ad-iron-battery
   requirements: [
-    aa-steel/10
+    ae-steel/10
     ab-tin/20
     ai-magnet/10
   ]

@@ -17,3 +17,16 @@
   - Added:
     - Blocks:
       - Gold Ore, Radium Ore, Uranium Ore, Recyler
+
+- March / 7 / 2025
+  - Fixed:
+    - Crash Bug
+
+- March / 8 / 2025
+  - Modified:
+    - Systems:
+      - Icon
+
+    - Planets:
+      - Astra
+      - Luna

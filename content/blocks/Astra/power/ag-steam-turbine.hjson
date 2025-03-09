@@ -11,6 +11,15 @@ requirements: [
 breakable: true
 destructible: true
 
+research: {
+  parent: af-ignition-generator
+  requirements: [
+    aa-iron/180
+    ab-tin/130
+    ag-ceramic/110
+  ]
+}
+
 powerProduction: 4
 
 drawer: {

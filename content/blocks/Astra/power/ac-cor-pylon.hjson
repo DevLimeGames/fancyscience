@@ -10,7 +10,7 @@ requirements: [
 research: {
   parent: ab-large-iron-node
   requirements: [
-    ae-steel/48
+    al-corium/48
   ]
 }
 
@@ -20,4 +20,4 @@ destructible: true
 laserRange: 45
 maxNodes: 2
 autolink: true
-laserScale: 0.2
+laserScale: 0.35
