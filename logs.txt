@@ -30,3 +30,18 @@
     - Planets:
       - Astra
       - Luna
+
+- March / 10 / 2025
+  - Added:
+    - Sprites:
+      - Magnet Drill
+      - Cor Pylon
+
+- March / 11 / 2025
+  - Added:
+    - Feature:
+      - Discord Server Link
+
+    - Sprites:
+      - Iron Pump
+    

@@ -31,6 +31,10 @@ function showFancyScienceChangelog(currentVersion, latestVersion, releaseNotes, 
             Core.app.openURI(githubReleaseURL);
         }).size(220, 60).padBottom(16).row();
 
+        dialog.cont.button("Join Discord", function() {
+            Core.app.openURI("https://discord.gg/zsDDmuZ5Rw");
+        }).size(220, 60).padBottom(16).row();
+
         dialog.cont.button("Close", function() {
             dialog.hide();
         }).size(220, 60).padBottom(16).row();
